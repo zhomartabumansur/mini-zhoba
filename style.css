@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+main {
+    height: 500px;
+    background-color: white;
+}
+
+header {
+    background-color: #ff0000;
+    box-shadow: 2px 2px 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px;
+}
+
+.search {
+    border-radius: 110px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.search-bar {
+    position: relative;
+    width: fit-content;
+}
+
+.search-bar img{
+    position: absolute;
+    height: 30px;
+    right: 5px;
+}
+
+footer {
+    bottom: 5px;      
+    position: relative;
+    background-color:  #ff0000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h5 {
+    color: white;
+}
+
+.h5 a {
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+}
+
+.contact {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.column {
+    display: flex;
+    
+    padding: 10px;
+    color: rgb(255, 240, 240);
+}
+
+.column1 {
+    padding: 10px;
+}
+
+.column2 {
+    padding: 10px;
+}
+
+.column3 {
+    padding: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+}
+
+.card {
+    border: 1.5px solid rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-countainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+
